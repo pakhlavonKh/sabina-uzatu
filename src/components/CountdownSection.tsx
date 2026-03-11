@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const EVENT_DATE = new Date("2026-04-15T17:00:00");
+const EVENT_DATE = new Date("2026-06-11T13:00:00");
 
 const CountdownSection = () => {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());

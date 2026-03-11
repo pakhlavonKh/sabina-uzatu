@@ -1,24 +1,24 @@
-import { MapPin, Clock, CalendarDays } from "lucide-react";
+import { MapPin, Clock, CalendarDays, Users } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const details = [
   {
     icon: CalendarDays,
     title: "Күні",
-    text: "15 Сәуір, 2026 жыл",
-    sub: "Сәрсенбі",
+    text: "11 Маусым, 2026 жыл",
+    sub: "Бейсенбі",
   },
   {
     icon: Clock,
     title: "Уақыты",
-    text: "17:00",
-    sub: "Қонақтарды қарсы алу 16:30-да",
+    text: "13:00",
   },
   {
     icon: MapPin,
     title: "Мекенжайы",
-    text: "«Алтын Сарай» мейрамханасы",
-    sub: "Алматы қ., Абай даңғылы 52",
+    text: "Vogue",
+    sub: "Қарағанды қ.",
+    link: "https://2gis.kz/karaganda/geo/70000001020299483",
   },
 ];
 
@@ -44,17 +44,30 @@ const DetailsSection = () => {
               variant={i === 0 ? "slideLeft" : i === 2 ? "slideRight" : "scaleUp"}
               delay={i * 0.15}
             >
-              <div className="flex flex-col items-center text-center p-6 rounded-xl bg-cream-dark border border-gold/15 shadow-sm">
+              <div className="flex flex-col items-center text-center p-6 rounded-xl bg-cream-dark border border-gold/15 shadow-sm h-full">
                 <div className="w-14 h-14 rounded-full bg-gold/10 flex items-center justify-center mb-4">
                   <d.icon className="w-6 h-6 text-gold" />
                 </div>
                 <h3 className="font-display text-xl text-foreground mb-1">{d.title}</h3>
-                <p className="font-body font-medium text-foreground">{d.text}</p>
+                {d.link ? (
+                  <a href={d.link} target="_blank" rel="noopener noreferrer" className="font-body font-medium text-gold hover:text-gold/80 transition-colors">
+                    {d.text}
+                  </a>
+                ) : (
+                  <p className="font-body font-medium text-foreground">{d.text}</p>
+                )}
                 <p className="font-body text-sm text-muted-foreground mt-1">{d.sub}</p>
               </div>
             </ScrollReveal>
           ))}
         </div>
+
+        <ScrollReveal delay={0.5}>
+          <div className="mt-12 text-center">
+            <p className="font-body text-muted-foreground text-sm mb-2">Той иелері</p>
+            <h3 className="font-display text-2xl text-gold">Жанболат - Айнагүл</h3>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );

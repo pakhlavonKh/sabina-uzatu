@@ -74,7 +74,7 @@ const CalendarSection = () => {
 
         <ScrollReveal delay={0.3}>
           <p className="font-body text-muted-foreground text-sm mt-6">
-            11 Маусым 2026 жыл — Бейсенбі, 17:00
+            11 Маусым 2026 жыл — Бейсенбі, 13:00
           </p>
         </ScrollReveal>
 
