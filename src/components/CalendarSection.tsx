@@ -46,7 +46,7 @@ const CalendarSection = () => {
 
                       {isSelected && (
                         <img
-                          src="/src/assets/golden_circle.png"
+                          src="/golden_circle.png"
                           alt=""
                           className="absolute w-12 h-12 object-contain pointer-events-none select-none animate-spin"
                           style={{ animationDuration: '6s' }}

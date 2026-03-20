@@ -1,4 +1,4 @@
-import flowersTop from "@/assets/flowers-top.png";
+import flowersTop from "@/assets/flowers.png";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const FooterSection = () => {
@@ -9,7 +9,7 @@ const FooterSection = () => {
           <img
             src={flowersTop}
             alt=""
-            className="w-32 mx-auto mb-6 opacity-60 rotate-180"
+            className="w-60 mx-auto mb-6 opacity-60 rotate-180"
           />
         </ScrollReveal>
         <ScrollReveal delay={0.1}>
@@ -18,9 +18,6 @@ const FooterSection = () => {
           </p>
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
-          <p className="font-body text-muted-foreground text-sm">
-            Сабинаның отбасы
-          </p>
           <div className="flex items-center justify-center gap-4 mt-6">
             <div className="w-8 h-px bg-gold" />
             <span className="text-gold text-sm">♡</span>

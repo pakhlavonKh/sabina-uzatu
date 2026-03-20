@@ -1,4 +1,4 @@
-import flowersTop from "@/assets/flowers-top.png";
+// import flowersTop from "@/assets/flowers.png";
 import ornament from "@/assets/ornament.png";
 
 const HeroSection = () => {
@@ -17,11 +17,11 @@ const HeroSection = () => {
       />
 
       {/* Flowers */}
-      <img
+      {/* <img
         src={flowersTop}
         alt="Flowers"
         className="w-48 md:w-64 mb-6 animate-fade-in-up"
-      />
+      /> */}
 
       {/* Title */}
       <p className="font-body text-sm md:text-base tracking-[0.3em] uppercase text-gold animate-fade-in-up animate-delay-200">
@@ -43,11 +43,12 @@ const HeroSection = () => {
       </h2>
 
       <p className="font-body text-muted-foreground text-sm md:text-base mt-6 max-w-md text-center leading-relaxed animate-fade-in-up animate-delay-600">
-        Сіздерді қызымыздың қыз ұзату тойына шақырамыз.
+        <span className="font-bold">Құрметті ағайын-туыс, құда-жекжат, дос-жаран!</span>
         <br />
-        Біздің бақытты күнімізді бірге бөлісуіңізді сұраймыз.
+        Сіздерді аяулы қызымыз <span className="font-bold">Сабинаның ұзату тойына</span> арналған ақ
+        дастарханымыздың қадірлі қонағы болуға шақырамыз. Қуанышымызды бірге
+        бөлісіп, ақ баталарыңызды беруге келіңіздер!
       </p>
-
     </section>
   );
 };
