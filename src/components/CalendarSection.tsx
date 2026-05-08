@@ -1,7 +1,7 @@
 import { Calendar } from "@/components/ui/calendar";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const EVENT_DATE = new Date(2026, 5, 11); // 11 Маусым 2026
+const EVENT_DATE = new Date(2026, 3, 15); // 15 Сәуір 2026
 
 const CalendarSection = () => {
   return (
@@ -74,7 +74,7 @@ const CalendarSection = () => {
 
         <ScrollReveal delay={0.3}>
           <p className="font-body text-muted-foreground text-sm mt-6">
-            11 Маусым 2026 жыл — Бейсенбі, 13:00
+            15 Сәуір 2026 жыл — Салсенбі, 14:30
           </p>
         </ScrollReveal>
 

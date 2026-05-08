@@ -5,20 +5,20 @@ const details = [
   {
     icon: CalendarDays,
     title: "Күні",
-    text: "11 Маусым, 2026 жыл",
-    sub: "Бейсенбі",
+    text: "15 Сәуір, 2026 жыл",
+    sub: "Салсенбі",
   },
   {
     icon: Clock,
     title: "Уақыты",
-    text: "13:00",
+    text: "14:30",
   },
   {
     icon: MapPin,
     title: "Мекенжайы",
-    text: "Vogue",
-    sub: "Қарағанды қ.",
-    link: "https://2gis.kz/karaganda/geo/70000001020299483",
+    text: "Алмас Palace",
+    sub: "Түркістан қ.",
+    link: "https://2gis.kz/turkestan",
   },
 ];
 
@@ -65,7 +65,7 @@ const DetailsSection = () => {
         <ScrollReveal delay={0.5}>
           <div className="mt-12 text-center">
             <p className="font-body text-muted-foreground text-sm mb-2">Той иелері</p>
-            <h3 className="font-display text-2xl text-gold">Жанболат - Айнагүл</h3>
+            <h3 className="font-display text-2xl text-gold">Ақбай - Гүлнара</h3>
           </div>
         </ScrollReveal>
       </div>

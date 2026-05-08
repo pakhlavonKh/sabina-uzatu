@@ -29,7 +29,7 @@ const HeroSection = () => {
       </p>
 
       <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-foreground mt-4 mb-2 animate-fade-in-up animate-delay-200">
-        Сабина
+        Аружан
       </h1>
 
       <div className="flex items-center gap-4 my-4 animate-fade-in-up animate-delay-400">
@@ -45,7 +45,7 @@ const HeroSection = () => {
       <p className="font-body text-muted-foreground text-sm md:text-base mt-6 max-w-md text-center leading-relaxed animate-fade-in-up animate-delay-600">
         <span className="font-bold">Құрметті ағайын-туыс, құда-жекжат, дос-жаран!</span>
         <br />
-        Сіздерді аяулы қызымыз <span className="font-bold">Сабинаның ұзату тойына</span> арналған ақ
+        Сіздерді аяулы қызымыз <span className="font-bold">Аружанның ұзату тойына</span> арналған ақ
         дастарханымыздың қадірлі қонағы болуға шақырамыз. Қуанышымызды бірге
         бөлісіп, ақ баталарыңызды беруге келіңіздер!
       </p>
